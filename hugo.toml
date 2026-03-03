@@ -1,0 +1,39 @@
+baseURL = '/'
+languageCode = 'en-us'
+title = 'Spezialks Blog'
+theme = "HugoTeX"
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+footnoteReturnLinkContents = "^"
+enableRobotsTXT = true
+
+copyright = "2026"
+[params]
+  [params.author]
+    name = 'Spezialk'
+
+
+[pagination]
+  pagerSize = 5
+
+
+
+[Params.Author]
+  name = "Spezialk"
+  abstract = """
+  My Personal Blog where I post about things I find interesting.
+  """
+
+# this is supposidly all the stuff for
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          inline = [['$', '$']]
+          block = [['$$', '$$']]
+  [markup.highlight]
+    style = "paraiso-dark"  # Syntax highlighting style
