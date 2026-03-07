@@ -37,3 +37,8 @@ copyright = "2026"
           block = [['$$', '$$']]
   [markup.highlight]
     style = "paraiso-dark"  # Syntax highlighting style
+
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
