@@ -8,7 +8,7 @@ authors:
   - spezialk
 exclude_from_rss: true
 ---
-This site has an [Rss feed](/index.xml).
+
 
 # Areas of Interest 
 
@@ -23,10 +23,4 @@ This site has an [Rss feed](/index.xml).
 
 - [Github](https://github.com/spezialk-dev)
 - [Mastodon](https://chaos.social/@spezialk)
-
-
-# Contact Information 
-
-email: spezialk-dev at posteo.com
-
 
