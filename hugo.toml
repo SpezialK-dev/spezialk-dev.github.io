@@ -23,6 +23,8 @@ copyright = "2026"
   abstract = """
   My Personal Blog where I post about things I find interesting.
   """
+[Params]
+Legal ="Legal information / Impressum"
 
 # this is supposidly all the stuff for
 [markup]
