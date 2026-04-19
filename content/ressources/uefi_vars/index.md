@@ -122,6 +122,11 @@ asd
 - PlatformLangCodes
 - PlatformSetupCommon
 - ProtectedBootOptions
+### Logo Settings 
+(these cannot be 100% soley attributed to Lenovo [ also used in LogoFail](https://www.binarly.io/blog/blind-trust-and-broken-fixes-the-ongoing-battle-with-logofail-vulnerabilities))
+
+- LBLDVC (Logo variable)
+- LBLDESP (Logo variable)
 
 ## AMD
 
